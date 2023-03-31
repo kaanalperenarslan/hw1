@@ -1,0 +1,69 @@
+---
+title: "Homework 1"
+author: "Kaan Alperen ARSLAN 19080379"
+---
+
+```{r global_options, include=FALSE}
+# Do not delete or modify this chunk.
+# We will cover chunk options later.
+# This is required for Question 7
+library(knitr)
+opts_chunk$set(fig.align="center", fig.height=4, fig.width=5.5)
+```
+
+**Question 1** With Markdown write a sentence that has one word in bold.
+
+**lover**
+
+**Question 2** With Markdown write a sentence that has one word in italic.
+
+*baby*
+
+**Question 3** With Markdown write a sentence that has one word in italic bold.
+
+***kaanalperen***
+
+**Question 4** With Markdown write an unordered list with three items.
+
+-   pencil
+-   book
+-   eraser
+-   pen
+
+**Question 5** With Markdown write an ordered list with three items.
+
+1.  ring
+2.  necklace
+3.  belt
+4.  earring
+
+**Question 6** With Markdown give a link to your favorite webpage.
+
+This is a link to [My Twitter](https://twitter.com/arslann_kaann)
+
+**Question 7** With Markdown add a cat picture.
+
+![Joker Cat NFT](https://coolcatstron.com/img/9963.jpg)
+
+**Question 8** With Rmarkdown insert a code chunk and give an example of a simple mathematical calculation in it.
+
+```{r}
+
+
+x <- 500
+y <- 2
+x * y
+```
+
+**Question 9** With $LaTeX$ write your favorite equation in block form.
+
+$E = \ m*c^{2}$
+
+**Question 10** In a code chunk calculate 3 + 4.
+
+```{r}
+x <- 3
+y <- 4
+
+x+y
+```
